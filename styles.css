@@ -1,9 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
     /* width: 1440px; */
     /* margin: 0 auto; */
     max-width: 1440px;
 
     background-image: url(assets/bg.png);
+    font-family: "Raleway", serif;
+    font-style: normal;
     /* background-repeat: no-repeat; */
 
 }
@@ -162,6 +166,12 @@ body {
 .item-3-contain>a {
     text-decoration: none;
     color: rgb(135, 0, 255);
+}
+
+.feture-item p {
+    font-size: 15.09px;
+    font-weight: 500;
+
 }
 
 
@@ -426,7 +436,9 @@ ul {
     padding: 12px;
 }
 
-
+.sm-screen {
+    display: none;
+}
 
 
 @media screen and (max-width: 576px) {
@@ -492,5 +504,13 @@ ul {
         display: none;
 
     }
+
+    .sm-screen {
+        display: block;
+    }
+
+    /* .f-section-2{
+       margin-left: 0px;
+    } */
 
 }
